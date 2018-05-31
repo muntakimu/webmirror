@@ -15,7 +15,7 @@ class MYAPPstate extends State<MyApp> {
       routes: {
         "/":(_)=>new WebviewScaffold(
           url: "https://www.iyify.net",
-          
+
           withJavascript: true,
           withLocalStorage: true,
         )
